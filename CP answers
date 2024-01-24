@@ -1,1 +1,19 @@
-ADD Competitive Programming answers here.
+a) O(N)
+B) STACK
+B) EXIT THE LOOP
+A) MUST BE SORTED
+C) ) The execution speed on a specific machine
+#include<stdio.h>
+int main(){ int num;
+    printf("enter number: ");
+    scanf("%d",&num);
+    if((num % 2)== 0) printf("%d is even", num);
+    else printf("%d is odd", num);
+}
+#include<stdio.h>
+int main(){ int a,b;
+    printf("enter numbers: ");
+    scanf("%d",&a &b);
+   int c= a*b;
+printf("product:%d ", c);
+}
